@@ -1,0 +1,10 @@
+appName: test
+
+port: 80
+
+configmap:
+  name: test-configmap-v1
+
+image:
+  name: ghcr.io/linuxserver/sonarr
+  tag: latest
