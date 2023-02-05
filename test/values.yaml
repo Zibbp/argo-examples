@@ -1,4 +1,8 @@
 appName: test
+replicas: 1
+configmap:
+  data:
+    TEST: hi
 
 port: 80
 
